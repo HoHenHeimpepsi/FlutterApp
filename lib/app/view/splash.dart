@@ -10,9 +10,9 @@ class SplashPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Text('hola mundo'),
-            const Text('hola mundo'),
-            const Row(
+            Text('hola mundo'),
+            Text('hola mundo'),
+            Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text('hola mundo'),
@@ -22,7 +22,7 @@ class SplashPage extends StatelessWidget {
             Container(
               width: 200,
               height: 100,
-              decoration: const BoxDecoration(
+              decoration: BoxDecoration(
                 color: Colors.cyanAccent,
               ),
             )
